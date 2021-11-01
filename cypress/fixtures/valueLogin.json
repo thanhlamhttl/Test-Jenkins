@@ -1,21 +1,15 @@
 [
-    {
-      "_comment1": "Verify Login Travel success with valid email and valid password",
-      "id": 1,
-      "email": "admin@phptravels.com",
-      "password": "demoadmin"      
-    },
+  {
+    "_comment1": "Verify Shopping Login success with valid userID and valid password",
+    "id": 1,
+    "email": "holam@gmail.com",
+    "password": "Admin@123"
+  },
 
-    {
-      "_comment1": "Verify Login Travel fail with invalid email and invalid password",
-      "id": 2,
-      "email": "abc@gmail.com",
-      "password": "abcde"      
-    },
-
-    {
-      "_comment1": "Verify Login Travel fail with input not format email",
-      "id": 3,
-      "email": "abcgmail"  
-    }
+  {
+    "_comment1": "Verify Shopping Login success with valid userID and valid password",
+    "id": 2,
+    "email": "holam@gmail.com",
+    "password": "Admin@123"
+  }
 ]
