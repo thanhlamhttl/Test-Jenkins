@@ -1,15 +1,33 @@
 [
   {
-    "_comment1": "Verify Shopping Login success with valid userID and valid password",
+    "_comment1": "Verify Shopping Login success with valid email and valid password",
     "id": 1,
     "email": "holam@gmail.com",
     "password": "Admin@123"
   },
 
   {
-    "_comment1": "Verify Shopping Login success with valid userID and valid password",
+    "_comment1": "Verify Shopping Login fail with invalid email and invalid password",
     "id": 2,
-    "email": "holam@gmail.com",
-    "password": "Admin@123"
+    "email": "holamg99@mail.com",
+    "password": "abcd@"
+  },
+
+  {
+    "_comment1": "Verify Shopping Login fail with not format email",
+    "id": 3,
+    "email": "holamgmail.com"
+  },
+
+  {
+    "_comment1": "Verify Shopping Login fail with input number email",
+    "id": 4,
+    "email": "1111"
+  },
+
+  {
+    "_comment1": "Verify Shopping Login fail with input space email",
+    "id": 5,
+    "email": "holam @gmai.com"
   }
 ]
